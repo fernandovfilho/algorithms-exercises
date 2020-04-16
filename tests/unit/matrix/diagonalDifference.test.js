@@ -1,4 +1,4 @@
-const diagonalDifference = require("../../algorithms/matrix/diagonal-difference");
+const diagonalDifference = require("../../../algorithms/matrix/diagonal-difference");
 
 test("calculate the absolute difference between the sums of its diagonals 3x3 matrix", () => {
   expect(diagonalDifference([[3], [11, 2, 4], [4, 5, 6], [10, 8, -12]])).toBe(
