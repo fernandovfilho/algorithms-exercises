@@ -23,7 +23,6 @@ function countingValleys(n, s) {
     if (step === "U") level++;
     if (oldLevel === 0 && level === -1) valleys++;
     oldLevel = level;
-    console.log("level", level);
   });
 
   return valleys;
