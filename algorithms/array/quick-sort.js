@@ -16,8 +16,8 @@ const { swap } = require("../../utils");
 
 let array = [];
 
-function quickSort(UnorderedArray, fromIndex, toIndex) {
-  if (array.length === 0) array = UnorderedArray;
+function quickSort(UnorderedArray, fromIndex, toIndex, start = false) {
+  if (start) array = UnorderedArray;
 
   let pivotIndex = toIndex;
   let elementIndex = fromIndex;
