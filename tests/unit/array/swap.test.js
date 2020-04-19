@@ -1,5 +1,4 @@
-const swap = require("../../../algorithms/array/swap");
-const { isSameArray } = require("../../../utils");
+const { isSameArray, swap } = require("../../../utils");
 
 test("Swap two positions in an array", () => {
   const arrayToTest = [1, 10, 5, 8, 4, 6, 9, 7, 2, 3];
