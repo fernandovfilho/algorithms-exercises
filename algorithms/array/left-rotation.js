@@ -8,4 +8,4 @@ function rotLeft(a, d){
   return a;
 }
 
-module.export = rotLeft;
+module.exports = rotLeft;
