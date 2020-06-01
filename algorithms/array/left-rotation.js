@@ -1,3 +1,11 @@
-function rotLeft(a, d){}
+function rotLeft(a, d){
+  
+ for (var i = 0; i < d; i++) {
+    let firstPosition = a.shift();
+    a.push(firstPosition)
+  }
+  
+  return a;
+}
 
-console.log("hello");
+module.export = rotLeft;
